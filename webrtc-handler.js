@@ -1,6 +1,6 @@
 // const io = require("socket.io-client");
 var Peer = window.SimplePeer;
-var socket = io.connect("http://localhost:3000/");
+var socket = io.connect("https://wertc-server-simple.herokuapp.com/");
 
 var initiateBtn = document.getElementById('initiateBtn');
 var stopBtn = document.getElementById('stopBtn');
